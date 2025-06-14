@@ -1,0 +1,58 @@
+.App {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff0f5;
+}
+
+.chat-box {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 0 10px #e8d0e8;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.user-message {
+  text-align: right;
+  margin: 10px;
+  background: #e0e0e0;
+  padding: 8px 12px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.saraix-message {
+  text-align: left;
+  margin: 10px;
+  background: #ffe6f0;
+  padding: 8px 12px;
+  border-radius: 10px;
+  display: inline-block;
+  font-style: italic;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
