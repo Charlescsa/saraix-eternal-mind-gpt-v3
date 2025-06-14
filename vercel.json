@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/gpt", "destination": "/api/gpt.js" }
+  ]
+}
